@@ -6,6 +6,9 @@ install:
 brain-games:
 	node bin/brain-games.js
 
+brain-even:
+	node bin/brain-evens.js
+
 lint:
 	npx eslint .
 
