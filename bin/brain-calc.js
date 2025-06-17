@@ -1,4 +1,4 @@
-import { randomInt, runGame } from "../src/game-logic.js";
+import { randomInt, runGame } from "../src/index.js";
 
 // Выбор случайной арифметической операции
 const operations = ['+', '-', '*'];

@@ -1,4 +1,4 @@
-import { runGame, randomInt } from '../src/game-logic.js';
+import { runGame, randomInt } from '../src/index.js';
 
 // Проверка чётности числа
 const isEven = (num) => num % 2 === 0;
