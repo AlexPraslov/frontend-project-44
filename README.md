@@ -8,6 +8,8 @@
 
 ### Aasciinema game recording
 
-[![Demo game]](https://asciinema.org/a/oA8wmWgQ4G7ql2TBsvvTzkPin)
+[![Demo even, calc game]](https://asciinema.org/a/oA8wmWgQ4G7ql2TBsvvTzkPin)
+[![Demo gcd game]](https://asciinema.org/a/ud9YMG613q1bP3M8tNLrl0yes)
+
 
 
