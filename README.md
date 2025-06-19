@@ -10,6 +10,7 @@
 
 [![Demo even, calc game]](https://asciinema.org/a/oA8wmWgQ4G7ql2TBsvvTzkPin)
 [![Demo gcd game]](https://asciinema.org/a/ud9YMG613q1bP3M8tNLrl0yes)
+[![Demo progression game]](https://asciinema.org/a/vz3tnQ8MPHeoV2XmDwrYfHAu0)
 
 
 
