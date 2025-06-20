@@ -1,5 +1,7 @@
+#!/usr/bin/env node
 import { runGame, randomInt } from '../src/index.js';
 
+// Поиск предиката
 const prime = (num) => {
         if (num <= 1) return false;
         if (num <= 3) return true;
@@ -15,6 +17,7 @@ const prime = (num) => {
         return true;
 };
 
+//Логика игры с поиском предиката
 const primeGameLogic = () => {
     const randomNumber = randomInt(1, 100);
     const correctAnswer = prime(randomNumber) ? "yes" : "no";

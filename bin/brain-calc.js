@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { randomInt, runGame } from "../src/index.js";
 
 // Выбор случайной арифметической операции

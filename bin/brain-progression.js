@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { runGame, randomInt } from '../src/index.js';
 
 // Генерация прогрессии

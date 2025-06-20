@@ -1,5 +1,7 @@
+#!/usr/bin/env node
 import { runGame, randomInt } from '../src/index.js';
 
+// Поиск НОД
 const gcd = (a, b) => {
     while(b !== 0){
         let temp = b;
@@ -9,6 +11,7 @@ const gcd = (a, b) => {
     return Math.abs(a);
 }
 
+//Логика игры поска НОД
 const gcdGameLogic = () => {
     const number1 = randomInt(0, 100);
     const number2 = randomInt(0, 100);
