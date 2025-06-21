@@ -1,21 +1,15 @@
-// eslint.config.js
-import js from "@eslint/js";
-import { defineConfig } from "eslint/config";
+// eslint.config.mjs
+import js from '@eslint/js'
+import globals from 'globals'
+import { defineConfig } from 'eslint/config'
+import stylistic from '@stylistic/eslint-plugin'
 
 export default defineConfig([
+  stylistic.configs.recommended,
   {
-    files: ["**/*.js"],
-    plugins: {
-      js,
-    },
-    languageOptions: {
-      globals: {
-        console: "readonly", // allow console.log, etc.
-      },
-    },
-    extends: ["js/recommended"],
-    rules: {
-      "no-unused-vars": "warn",
-    },
+    files: ['**/*.{js,mjs,cjs}'],
+    plugins: { js },
+    extends: ['js/recommended'],
   },
-]);
+  { files: ['**/*.{js,mjs,cjs}'], languageOptions: { globals: globals.node } },
+])

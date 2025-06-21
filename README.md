@@ -12,6 +12,3 @@
 [![Demo gcd game]](https://asciinema.org/a/ud9YMG613q1bP3M8tNLrl0yes)
 [![Demo progression game]](https://asciinema.org/a/vz3tnQ8MPHeoV2XmDwrYfHAu0)
 [![Demo prime game]](https://asciinema.org/a/LUR82hCpi1JTdomdaXMjZSYIw)
-
-
-
