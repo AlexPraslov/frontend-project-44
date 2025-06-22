@@ -1,4 +1,4 @@
-import { randomInt } from "../random-int.js"
+import { randomInt } from '../random-int.js'
 
 // Поиск НОД
 const gcd = (a, b) => {
