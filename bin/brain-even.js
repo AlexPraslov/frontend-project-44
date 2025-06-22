@@ -1,18 +1,6 @@
 #!/usr/bin/env node
-import { runGame, randomInt } from '../src/index.js'
-
-// Проверка чётности числа
-const isEven = num => num % 2 === 0
-
-// Логика игры с проверкой чётности
-const evenGameLogic = () => {
-  const randomNumber = randomInt(1, 100)
-  const correctAnswer = isEven(randomNumber) ? 'yes' : 'no'
-  return {
-    question: `${randomNumber}`,
-    expectedAnswer: correctAnswer,
-  }
-}
+import { runGame } from '../src/index.js'
+import { evenGameLogic } from '../src/even-logic.js'
 
 runGame(
   evenGameLogic,
