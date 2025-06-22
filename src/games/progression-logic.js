@@ -1,4 +1,4 @@
-import { randomInt } from '../src/index.js'
+import { randomInt } from "../random-int.js"
 
 // Генерация прогрессии
 const arithProgressionGameLogic = () => {

@@ -1,10 +1,5 @@
 import readlineSync from 'readline-sync'
 
-// Генерация случайного целого числа
-const randomInt = (min, max) => {
-  return Math.floor(Math.random() * (max - min + 1)) + min
-}
-
 // Обобщённая функция для запуска игр
 const runGame = (gameLogic, gameDescription) => {
   console.log('Welcome to the Brain Games!')
@@ -39,4 +34,4 @@ const runGame = (gameLogic, gameDescription) => {
   console.log(`Congratulations, ${userName}!`)
 }
 
-export { randomInt, runGame }
+export { runGame }

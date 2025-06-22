@@ -1,4 +1,4 @@
-import { randomInt } from '../src/index.js'
+import { randomInt } from "../random-int.js"
 
 // Проверка чётности числа
 const isEven = num => num % 2 === 0

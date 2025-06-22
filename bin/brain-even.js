@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { runGame } from '../src/index.js'
-import { evenGameLogic } from '../src/even-logic.js'
+import { evenGameLogic } from '../src/games/even-logic.js'
 
 runGame(
   evenGameLogic,

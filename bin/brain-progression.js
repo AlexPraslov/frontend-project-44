@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { runGame } from '../src/index.js'
-import { arithProgressionGameLogic } from '../src/progression-logic.js'
+import { arithProgressionGameLogic } from '../src/games/progression-logic.js'
 
 runGame(
   arithProgressionGameLogic,
