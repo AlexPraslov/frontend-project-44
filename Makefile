@@ -24,5 +24,8 @@ brain-progression:
 lint:
 	npx eslint .
 
+lint-fix:
+	npx eslint --fix .
+
 prettier:
 	npx prettier --write .
